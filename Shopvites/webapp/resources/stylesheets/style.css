@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-size: 100%;
+    position: relative;
+    background-color:aliceblue;
+}
+.container-fluid{
+    height:900px;
+    padding-left:0;
+    padding-right:0;
+}
+.navbar{
+    background-color:none;
+    font-size:20px;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+.navbar:hover{
+    background-color:rgba(0, 178, 176, 1);
+}
+.order-1{
+  padding-right: 2px;
+}
+.navbar-brand{
+    font-size: 50px;
+    font-family: fantasy;
+    color: snow;
+    text-shadow: 2px 4px red;
+}
+.navbar-brand:hover{
+    color:antiquewhite;
+}
+.form-control{
+    margin: 5px 0 0 5px;
+}
+.startShop{
+    position:fixed;
+    left:35%;
+    top:450px;
+    text-align: center;
+}
+.startShop h1{
+    font-size: 55px;
+    font-style: oblique;
+    text-shadow:1px 2px 3px red;
+}
+.startShop h4{
+    font-size: 20px;
+    color: snow;
+    font-style: oblique;
+}
+.startShop h2{
+    font-size: 25px;
+    font-style: oblique;
+    font-family: inherit;
+    color: navy;
+    text-shadow: 2px 2px 1px red;
+    background-color: beige;
+    border-radius: 85%;
+
+}
+.startShop h2:hover{
+    text-decoration: none;
+    color:tomato;
+}
+button{
+    border:none;
+    background:none;
+}
+#cartDiv{
+top:0px;
+left:0px;
+width: 100%;
+height:100%;
+}
+#angularTable{
+    visibility: hidden;
+    position: absolute;
+    top: 61px;
+}
+#section1 {
+    top:0px;
+    background-color: aliceblue;
+    height: 900px;
+    width:100%;
+    font-size: 18px;
+    background-image: url('https://images.pexels.com/photos/157955/stylish-beautiful-young-studio-157955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+}
+#section2{
+    position: relative;
+    top:0px;
+    background-color: aliceblue;
+    height: 450px;
+    width:100%;
+    font-size: 18px;
+}
+#section2 h3{
+    text-align:center;
+    padding-top:2%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(0, 178, 176, 1);
+}
+#section2 .row span{
+    border:1px solid red;
+    width:30%;
+    padding:0 2% 0 10%;
+}
+.footer{
+    width:100%;
+    height:25%;
+    background-color:rgba(0, 178, 176, 1);
+    color:salmon;
+    position: relative;
+}
+.foot-links ul{
+    float:left;
+    padding:0 0 0 15%;
+}
+.foot-links hr{
+    width:100%;
+}
+.foot-links h3{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.foot-links a{
+    color:white;
+    font-family: cursive;
+}
+.footer #rights{
+    color:red;
+    height: 2px;
+    position: absolute;
+    width:100%;
+    bottom:10%;
+}
+.footer p b{
+    position: absolute;
+    width:100%;
+    left:0px;
+    bottom: 5%;
+    font-size:20px;
+    color:whitesmoke;
+}
+.foot-links a:hover{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+.connectFoot a i{
+    float:left;
+    font-size: 48px;
+    margin-left:15px;
+}
+.carousel-inner img{
+    height:300px;
+    width:800px;
+    margin-left:20%;
+    margin-top:10%;
+}
+.box{
+    position: relative;
+    border:2px solid papayawhip;
+    width:25%;
+    height:359px;
+    margin:3% 0 0 6%;
+    background-color:beige;
+    border-radius: 4%;
+    text-align: center;
+    overflow: hidden;
+}
+ .box img{
+    width:80%;
+    height: 250px;
+}
+.box b{
+    color:purple;
+}

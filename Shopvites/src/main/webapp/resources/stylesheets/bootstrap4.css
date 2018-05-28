@@ -1,0 +1,31 @@
+.btn-outline-secondary{
+    border:none;
+    font-family: cursive;
+    background-color:none;
+    color:aliceblue;
+}
+.btn-outline-secondary:hover{
+    background-color:rgba(0, 178, 176, 1);
+    color:red;
+    border:none;
+}
+.nav-item a{
+    font-family: cursive;
+    color: aliceblue;
+}
+.nav-item a:hover{
+    color: rgb(236, 26, 26);
+}
+.btn-primary{
+    background-color:rgba(0, 178, 176, 1);
+    border:none;
+    color:snow;
+}
+.btn-primary:hover{
+    background-color:red;
+}
+.btn-danger{
+    background-color:rgba(0, 178, 176, 1);
+    border-radius: 12%;
+    margin-left:40%;
+}

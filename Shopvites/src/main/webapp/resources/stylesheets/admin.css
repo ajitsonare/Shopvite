@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.table{
+	position: absolute;
+	width:90%;
+	text-align: center;
+	margin:10% 0 0 2%;
+}
+.tableUpdate{
+	position: absolute;
+	width:90%;
+	text-align: center;
+	margin:700px 0 0 2%;
+}
+.submitButton{
+	margin-left:%;
+}
+.submitButtonTd{
+	width:100%;
+}
+.add-items , .update-items{
+	font-size:20px;
+	color:red;
+	text-shadow:none;
+	margin-left:15%;
+}
+#imageBox img{
+	height:50px;
+	width:50px;
+}
